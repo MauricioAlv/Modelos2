@@ -14,5 +14,7 @@ def division(n,m):
 
 n = int (input ("Digite el valor de n"))
 m = int (input ("Digite el valor de m"))
-print(division(n,m))
+print(n+m)
+print(n-m)
 print (producto(n,m))
+print(division(n,m))
