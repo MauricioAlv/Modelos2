@@ -14,7 +14,9 @@ Escribir un programa que detecte si un número introducido desde el teclado es p
 Escribir un programa que detecte si un número leído desde el teclado es mayor o menor que 100.
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/may-men.py)
 ## Ciclos
-[Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
+Escribir un programa que realice la pregunta ¿Desea continuar S/N? y que no deje de hacerla hasta que el usuario teclee N.
+[Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/32-Continuar.py)
+
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
 ## Colecciones
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
