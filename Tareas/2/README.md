@@ -11,7 +11,8 @@ Escribir un programa que calcule el número de horas, minutos y segundos que hay
 Escribir un programa que detecte si un número introducido desde el teclado es positivo o negativo.
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
 
-[Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
+Escribir un programa que detecte si un número leído desde el teclado es mayor o menor que 100.
+[Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/may-men.py)
 ## Ciclos
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
