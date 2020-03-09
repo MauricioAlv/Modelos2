@@ -1,0 +1,560 @@
+/**
+ * 1.0 - Reset
+ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:hover,
+*:focus,
+*:active {
+  outline: 0; }
+
+* {
+  -webkit-tap-highlight-color: transparent; }
+
+footer,
+header,
+main,
+nav,
+section {
+  display: block; }
+
+ol,
+ul {
+  list-style: none; }
+
+a img {
+  border: 0; }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  word-wrap: break-word; }
+
+a:hover {
+  text-decoration: underline; }
+
+/**
+ * 2.0 - General
+ */
+/**
+ * 2.1 - tipografia
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 25px 0;
+  line-height: 1.1; }
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0; }
+
+h1 {
+  font-size: 36px; }
+
+h2 {
+  font-size: 26px; }
+
+h3 {
+  font-size: 24px; }
+
+h4 {
+  font-size: 22px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 16px; }
+
+p {
+  margin: 0 0 25px 0; }
+
+b,
+strong {
+  font-weight: 700; }
+
+
+/**
+ * 3.0 - Columnas
+ */
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+  .row:before, .row:after {
+    contenido: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
+  .row {
+    *zoom: 1; }
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left; }
+
+
+.col-xs-3 {
+  width: 25%; }
+
+.col-xs-5 {
+  width: 41.66667%; }
+
+.col-xs-6 {
+  width: 50%; }
+
+.col-xs-7 {
+  width: 58.33333%; }
+
+.col-xs-8 {
+  width: 66.66667%; }
+
+.col-xs-9 {
+  width: 75%; }
+
+.col-xs-10 {
+  width: 83.33333%; }
+
+.col-xs-11 {
+  width: 91.66667%; }
+
+.col-xs-12 {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left; }
+
+  .col-sm-3 {
+    width: 25%; }
+
+  .col-sm-4 {
+    width: 33.33333%; }
+
+  .col-sm-5 {
+    width: 41.66667%; }
+
+  .col-sm-6 {
+    width: 50%; }
+
+  .col-sm-7 {
+    width: 58.33333%; }
+
+  .col-sm-8 {
+    width: 66.66667%; }
+
+  .col-sm-9 {
+    width: 75%; }
+
+  .col-sm-10 {
+    width: 83.33333%; }
+
+  .col-sm-11 {
+    width: 91.66667%; }
+
+  .col-sm-12 {
+    width: 100%; }
+
+/**
+ * 4.0 - Componentes
+ */
+
+/**
+ * 4.1 - Links social
+ */
+.social {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+  .social li {
+    display: inline-block;
+    margin: 5px 15px; }
+    .social li a {
+      width: 45px;
+      height: 45px;
+      position: relative;
+      display: inline-block;
+      background-color: transparent;
+      -webkit-transition: -webkit-transition, background-color 0.25s linear 0s;
+      -moz-transition: -moz-transition, background-color 0.25s linear 0s;
+      transition: transition, background-color 0.25s linear 0s;
+      -webkit-backface-visibility: hidden;
+      -moz-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%; }
+      .social li a:hover {
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.1); }
+      .social li a, .social li a .rsicon {
+        line-height: 45; }
+      .social li a .rsicon {
+        color: #fff;
+        font-size: 20px;
+        line-height: 45px;
+        display: block; }
+
+@media (max-width: 767px) {
+  .social li {
+    margin-left: 5px;
+    margin-right: 5px; }
+    .social li a {
+      width: 35px;
+      height: 35px; }
+      .social li a, .social li a .rsicon {
+        line-height: 35px; }
+      .social li a .rsicon {
+        font-size: 17px; } }
+
+/**
+ * 5.0 - contenedors
+ */
+body {
+  color: #3d4451;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #efefef; }
+
+
+.contenido {
+  z-index: 2;
+  position: relative; }
+
+.contenedor {
+  width: 100%;
+  max-width: 960px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto; }
+
+.seccion {
+  padding-top: 70px; }
+
+.seccion-caja {
+  padding: 40px 50px; }
+
+.titulo-seccion {
+  color: #3d4451;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 600;
+  text-align: center; }
+
+.grid-box,
+.post-box,
+.price-box,
+.seccion-caja,
+.calendar-busy,
+.cajas-exp-inter,
+.foto-perfil img {
+  background-color: #fff;
+  /* sombras xd */
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); }
+
+@media (max-width: 992px) {
+  .seccion-caja {
+    padding: 50px 40px; } }
+@media (max-width: 767px) {
+  .seccion {
+    padding-top: 50px; }
+
+  .seccion-caja {
+    padding: 30px 20px; }
+
+  .titulo-seccion {
+    font-size: 30px; } }
+
+/**
+ * 6.0 - Pagina
+ */
+/**
+ * 11.1 - Section Text
+ */
+.seccion-info-perfil {
+  color: #000;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.8;
+  text-align: center;
+  margin-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%; }
+  .seccion-info-perfil .seccion-info-perfil .btn {
+    padding: 21px 55px;
+    letter-spacing: 0.05em;
+    margin: 5px; }
+
+.seccion-info-perfil p:last-child,
+.seccion-text .seccion-caja *:last-child {
+  margin-bottom: 0; }
+
+/**
+ * 11.2 - Section sobremi
+ */
+.seccion-sobremi {
+  padding-top: 40px;
+  position: relative; }
+  .seccion-sobremi .seccion-caja {
+    padding: 0; }
+  .seccion-sobremi .profile {
+    padding: 57px 50px 15px 50px; }
+  .seccion-sobremi .foto-perfil {
+    margin-right: 10%;
+    margin-bottom: 10px; }
+  .seccion-sobremi .info-perfil {
+    color: #3d4451;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #dedede; }
+  .seccion-sobremi .titulo-perfil {
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 5px; }
+    .seccion-sobremi .titulo-perfil span {
+      font-weight: 300; }
+  .seccion-sobremi .subtitulo-perfil {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 0; }
+
+.foto-perfil img {
+  width: 100%;
+  display: block; }
+
+
+.lista-perfil {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .lista-perfil li {
+    margin-bottom: 13px; }
+  .lista-perfil .titulo {
+    display: block;
+    width: 120px;
+    float: left;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase; }
+  .lista-perfil .cont {
+    display: block;
+    margin-left: 125px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+   }
+    .lista-perfil .cont a {
+      color: inherit; }
+    .lista-perfil .cont.profile-vacation {
+      font-size: 14px; }
+  .lista-perfil .button {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: none;
+    padding: 5px 8px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; }
+  .lista-perfil .rsicon {
+    margin-right: 10px;
+    vertical-align: baseline; }
+
+.enlaces-perfil {
+  padding: 15px 0; }
+
+@media (max-width: 992px) {
+  .seccion-sobremi .profile {
+    padding: 50px 40px 15px 40px; }
+  .seccion-sobremi .foto-perfil {
+    margin-right: 0;
+    margin-bottom: 30px; } }
+@media (max-width: 767px) {
+  .seccion-sobremi {
+    padding-top: 0; }
+    .seccion-sobremi .profile {
+      padding: 30px 20px 15px 20px; }
+
+  .lista-perfil .titulo, .lista-perfil .cont {
+    width: 100%;
+    float: none;
+    line-height: 1.2; }
+  .lista-perfil .titulo {
+    margin-bottom: 3px; }
+  .lista-perfil .cont {
+    margin-left: 0;
+    margin-bottom: 15px; } }
+@media (max-width: 480px) {
+  .seccion-sobremi .row > div {
+    width: 100%; }
+  .seccion-sobremi .titulo-perfil {
+    font-size: 28px; } }
+
+
+
+/**
+ * 11.6- Section Timeline
+ */
+.cajas-exp{
+  position: relative; }
+
+  .cajas-exp.cajas-interno{
+    position: relative; }
+
+.cajas-exp {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  position: relative; }
+  .cajas-exp:last-child {
+    margin-bottom: 0; }
+  .cajas-exp h3 {
+    color: #414141;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 20px; }
+  .cajas-exp h4 {
+    color: #878787;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px; }
+  .cajas-exp .fecha {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 15px; }
+
+.cajas-exp-compact .fecha, .cajas-exp-compact h3, .cajas-exp-compact h4 {
+  text-align: left; }
+.cajas-exp-compact .fecha span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+  padding: 5px 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+  .cajas-exp-compact .fecha span:before {
+    contenido: '';
+    width: 0;
+    height: 0;
+    top: 100%;
+    left: 5px;
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 0 8px 8px;
+    border-color: transparent; }
+
+.cajas-exp-inter {
+  padding: 20px 5%;
+  position: relative;
+  border-width: 5px 0 0 0;
+  border-style: solid; }
+
+
+@media (max-width: 600px){
+  .cajas-exp {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-right: 0; }
+    .cajas-exp .cajas-exp-inter{
+      margin-left: 0;
+      margin-right: 0; }
+
+    .cajas-exp .dot {
+      display: none; } }
+/**
+ * 11.7 - Section References
+ */
+.seccion-references .seccion-caja{
+  padding: 0 105px 0 25px;
+  position: relative; }
+
+.referencias {
+  padding: 55px 75px 40px 80px; }
+  .referencias .caja-comentario {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    position: relative;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #dddad9; }
+    .referencias .caja-comentario p:last-child {
+      margin-bottom: 0; }
+
+
+  .referencias .person-name-title {
+    padding-top: 10px; }
+  .referencias .datos-persona {
+    color: #d0d0d0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.1;
+    text-transform: uppercase; }
+
+@media (max-width: 767px) {
+  .referencias {
+    padding: 30px 0 30px 45px; }
+    .referencias .caja-comentario:before {
+      left: -43px; } }
+@media (max-width: 480px) {
+  .seccion-references .seccion-caja {
+    padding-right: 25px; }
