@@ -27,12 +27,14 @@ Escribir un programa que realice la pregunta ¿Desea continuar S/N? y que no dej
 ## Caracteres
 Escribir un programa que elimine los blancos de una cadena de caracteres. La cadena original y la transformada deben almacenarse de forma independiente.
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/56-borrarespacios.py)
+
 Escribir un programa que cambie las mayúsculas de una cadena de caracteres a minúsculas y viceversa.
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/58-may_min.py)
 
 ## Funciones y Procedimientos
 Escribir un programa que calcule el factorial de un numero leído desde el teclado usando funciones.
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/1/Factorial.py)
+
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
 
 ## Recursividad
