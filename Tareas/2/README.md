@@ -38,7 +38,9 @@ Escribir un programa que calcule el factorial de un numero leído desde el tecla
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
 
 ## Recursividad
-[Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
+Escriba un programa que calcule el factorial de un numero usando recursividad.
+[Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/1/Factorial.py)
+
 [Solución](https://github.com/MauricioAlv/Modelos2/blob/master/Tareas/2/pos_neg.py)
 
 ## Modulos
